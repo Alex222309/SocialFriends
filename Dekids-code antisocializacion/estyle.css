@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: rgb(5, 105, 105);
+    text-align: left;
+    display: inline-block;
+}
+
+figure img{
+    width: 60px ;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+/*
+.padre{
+    background: gray;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+
+.hijo{
+    background: black;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+*/
+
+.aplicar{
+    height: 500px;
+    background: rgb(7, 188, 188);
+    display: flex;
+    color: white;
+
+}
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center; 
+    font-size: 24.5px;
+}
+
+.aplicar-detalles img{
+    width: 300px;
+}
+
+.header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.header li{
+    height: inherit;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.header{
+    background:rgb(2, 59, 59);
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.menu{
+    height: inherit;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 24.6px;
+}
+
+.principal-botton{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(7, 188, 188);
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.principal-botton2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(7, 188, 188);
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.principal {
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    background-image: url("img/Diseño\ sin\ título.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 115px;
+}
+
+.principal img{
+    width: 300px;
+}
+
+.somos {
+    background-color: rgb(2, 59, 59);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+} 
+
+.video {
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
